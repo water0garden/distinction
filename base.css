@@ -38,3 +38,9 @@ img {
     -webkit-user-select: none;
     user-select: none;
 }
+
+@media (max-width: 800px) {
+  img {
+  max-width: 100%;
+  }
+}
