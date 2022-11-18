@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'DotumChe';
-  src: url(../fonts/DotumChe.ttf);
+  src: url(fonts/dotum-webfont.woff);
   unicode-range: U+000-5FF; /* Latin glyphs */
+  letter-spacing: 1rem;
 }
 
 

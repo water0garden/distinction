@@ -6,7 +6,7 @@ Fonts
 
 @font-face {
   font-family: 'DotumChe';
-  src: url(../fonts/DotumChe.ttf);
+  src: url(fonts/dotum-webfont.woff);
   unicode-range: U+000-5FF; /* Latin glyphs */
 }
 ===============
@@ -84,8 +84,10 @@ body {
 font-family: 'DotumChe';
   /* background: var(--clr-grey-10); */
   /* color: var(--clr-grey-1); */
-  line-height: 1.5;
+  line-height: 1.5rem;
   font-size: 0.875rem;
+  letter-spacing: 0.0666rem;
+
 }
 ul {
   list-style-type: none;
@@ -97,7 +99,7 @@ h1,
 h2,
 h3,
 h4 {
-  letter-spacing: 0.066rem;
+  letter-spacing: 0.06rem;
   /* text-transform: capitalize; */
   margin-bottom: 0.75rem;
   font-family: 'DotumChe';
