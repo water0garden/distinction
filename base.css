@@ -1,0 +1,40 @@
+header {
+    display: -ms-grid; /* IE 10 */
+    display: grid; /* None yet */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 24px;
+}
+main {
+    width: 100%;
+    height: calc(28vh - 68px);
+}
+ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+li {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+li:first-of-type {
+   display: block;
+}
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+img {
+    width: 60vh;
+    max-width: 60%;
+    height: auto;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

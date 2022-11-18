@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'DotumChe';
+  src: url(../fonts/DotumChe.ttf);
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.title {
+  color: grey;
+}
+
+.grid-text {
+  grid-column-start: auto;
+}
+
+.container {
+
+}
+
+figcaption {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 60%;
+  margin: auto;
+  padding-bottom: 20px;
+
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+li {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.appear {
+  display: none;
+}
+
+
+ /* Our main images-slideshow container */
+ .images-slideshow {
+   max-width: 1200px;
+   position: relative;
+   margin: auto;
+   padding-bottom: 40px;
+ }
+
+ /*Style for ">" next and "<" previous buttons */
+ .btn-image {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   padding: 8px 16px;
+   margin-top: -22px;
+   user-select: none;
+ }
+
+ /* setting the position of the previous button towards left */
+ .previous {
+   left: 2%;
+   left: auto;
+   top: 0%;
+   right: auto;
+   bottom: 0%;
+   min-width: 50%;
+   cursor: w-resize;
+
+ }
+  /* setting the position of the next button towards right */
+ .next {
+   right: 2%;
+   position: absolute;
+   left: auto;
+   top: 0%;
+   right: 0%;
+   bottom: 0%;
+   display: block;
+   min-width: 50%;
+   margin-right: 0px;
+   cursor: e-resize;
+ }
+
+ /* On hover, adding a background color */
+ .previous:hover,
+ .next:hover {
+
+ }
