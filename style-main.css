@@ -40,7 +40,13 @@ figcaption {
   max-width: 60%;
   margin: auto;
   padding-bottom: 20px;
+}
 
+@media (max-width: 800px) {
+  figcaption {
+  max-width: 92%;
+  line-height: normal;
+  }
 }
 
 ul {
