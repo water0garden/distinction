@@ -121,7 +121,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  /* color: var(--clr-grey-5); */
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -183,7 +183,7 @@ Nav
 */
 nav {
   /* background: var(--clr-white); */
-  height: 3rem;
+  height: 2.5rem;
   display: grid;
   align-items: center;
   /* box-shadow: var(--dark-shadow); */
@@ -218,7 +218,7 @@ Container
 ===============
 */
 main {
-  min-height: calc(15vh - 3rem);
+  min-height: calc(10vh - 3rem);
   display: grid;
   place-items: center;
 }
