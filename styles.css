@@ -260,3 +260,20 @@ button {
   /* color: var(--clr-white); */
   /* background: var(--clr-black); */
 }
+
+.home {
+  position: sticky;
+  top: 1rem;
+  left: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  font-family: 'DotumChe';
+  letter-spacing: 0.066rem;
+}
+
+.home a {
+  color: black;
+  border-color: transparent;
+  text-decoration: dotted 0.5px underline;
+
+}
